@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://word-counter.vercel.app'),
+  alternates: {
+    canonical: 'https://word-counter.vercel.app',
+  },
   title: 'Word Counter — Count Words, Characters, Lines | Free Tool',
   description: 'Count words, characters, sentences, and paragraphs in your text. Free online word counter tool.',
   keywords: ['word counter', 'character counter', 'count words', 'text analyzer', 'word count'],
