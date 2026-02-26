@@ -17,11 +17,13 @@ export const metadata: Metadata = {
     siteName: 'Word Counter',
     title: 'Word Counter — Count Words, Characters, Lines',
     description: 'Count words, characters, sentences, and paragraphs.',
+    images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Word Counter',
     description: 'Count words, characters, sentences, and paragraphs.',
+    images: ['/og-image.svg'],
   },
   robots: { index: true, follow: true },
 }
